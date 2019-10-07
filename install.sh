@@ -2,7 +2,6 @@
 set -e
 
 WORKSPACE=~/workspace
-RUBY_VERSION=2.3.3
 
 mkdir -p $WORKSPACE
 mkdir -p $HOME/go
@@ -21,17 +20,15 @@ brew upgrade
 
 printf "\nSetup Ruby\n"
 brew install rbenv
-rbenv install $RUBY_VERSION
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-rbenv local $RUBY_VERSION
 gem install bundle
 
 printf "\nInstalling Bundle Packages\n"
 bundle install
 
 printf "\nInstalling Brew Packages\n"
+set +e
 brew bundle
+set -e
 
 printf "\nSetup Git\n"
 source ./aliases/git
