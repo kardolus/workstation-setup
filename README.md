@@ -1,4 +1,4 @@
-# workstation-setup
+# Workstation Setup <img src="https://img.icons8.com/ios-filled/50/000000/my-computer.png"> 
 Download and install [iTerm](https://www.iterm2.com/). 
 
 Download the latest release from the [release section](https://github.com/kardolus/workstation-setup/releases).
