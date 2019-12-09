@@ -52,6 +52,7 @@ brew "wget"
 brew "wireshark", link: false
 brew "yarn"
 brew "z"
+brew "kubectx"
 
 brew "git-duet/tap/git-duet"
 brew "theseal/ssh-askpass/ssh-askpass"
