@@ -7,7 +7,9 @@ mkdir -p $WORKSPACE
 mkdir -p $HOME/go
 
 printf "\nSetup XCode\n"
+set +e # sometimes XCode is installed already
 xcode-select --install
+set -e
 
 if ! command -v brew > /dev/null 2>&1; then
   printf "\nInstalling Brew\n"

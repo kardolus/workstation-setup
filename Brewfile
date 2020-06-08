@@ -57,3 +57,4 @@ brew "kubectx"
 brew "git-duet/tap/git-duet"
 brew "theseal/ssh-askpass/ssh-askpass"
 brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]
+brew "bat"
