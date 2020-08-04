@@ -56,6 +56,7 @@ brew "z"
 brew "kubectx"
 brew "kind"
 brew "dockerize"
+brew "kube-ps1"
 
 brew "git-duet/tap/git-duet"
 brew "theseal/ssh-askpass/ssh-askpass"
