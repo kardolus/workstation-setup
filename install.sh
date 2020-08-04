@@ -43,7 +43,7 @@ cp bash/bashrc ~/.bashrc
 cp bash/bash_profile ~/.bash_profile
 
 printf "\nSetup Bash-it\n"
-git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
+git clone --depth=1 https://github.com/kardolus/bash-it.git ~/.bash_it
 ~/.bash_it/install.sh
 
 source ~/.bash_profile
