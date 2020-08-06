@@ -9,4 +9,11 @@ export BASH_IT_THEME="guillermo"
 # Load Bash It
 source $BASH_IT/bash_it.sh
 
+# Autocomplete kubectl commands
+source <(kubectl completion bash)
+
+# Autocomplete kubectl with just 'k'
+complete -F __start_kubectl k
+
+
 source ~/.bashrc
