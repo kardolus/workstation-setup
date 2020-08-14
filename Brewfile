@@ -11,7 +11,6 @@ cask "google-chrome"
 cask "flycut"
 cask "shiftit"
 cask "flux"
-cask "evernote"
 cask "docker"
 cask "virtualbox"
 
