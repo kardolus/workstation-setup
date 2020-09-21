@@ -1,5 +1,8 @@
 # Workstation Setup <img src="https://img.icons8.com/ios-filled/50/000000/my-computer.png"> 
-Download and install [iTerm](https://www.iterm2.com/). 
+Download and install [iTerm](https://www.iterm2.com/). Or live on the edge and run
+```
+curl -X GET https://raw.githubusercontent.com/kardolus/workstation-setup/master/install_iterm.sh | bash
+```
 
 Download the latest "workstation-setup" release from the [release section](https://github.com/kardolus/workstation-setup/releases).
 
