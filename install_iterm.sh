@@ -6,3 +6,5 @@ pushd ~/Downloads
   mv iTerm.app/ /Applications/
   rm latest_iterm.zip
 popd
+
+open /Applications/iTerm.app/
