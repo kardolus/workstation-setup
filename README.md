@@ -1,5 +1,8 @@
 # Workstation Setup <img src="https://img.icons8.com/ios-filled/50/000000/my-computer.png"> 
-Download and install [iTerm](https://www.iterm2.com/). Or live on the edge and run
+Use this repository to turn any Apple computer into an awesome workstation.
+
+## Installation
+If you do not have Iterm installed yet, get it [here](https://www.iterm2.com/). Or live on the edge and run
 ```
 curl -X GET https://raw.githubusercontent.com/kardolus/workstation-setup/master/install_iterm.sh | bash
 ```
