@@ -1,4 +1,4 @@
-# Workstation Setup <img src="https://img.icons8.com/ios-filled/50/000000/my-computer.png"> 
+# 👩‍💻 Workstation Setup  
 Use this repository to turn any Apple computer into an awesome workstation.
 
 ## Installation
