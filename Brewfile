@@ -5,7 +5,6 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "theseal/ssh-askpass"
 tap "universal-ctags/universal-ctags"
-tap "caskroom/cask"
 
 cask "google-chrome"
 cask "flycut"
