@@ -12,6 +12,7 @@ cask "shiftit"
 cask "flux"
 cask "docker"
 cask "virtualbox"
+cask "notable"
 
 brew "python", link: false
 brew "ansible"
