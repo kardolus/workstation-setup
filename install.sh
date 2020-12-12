@@ -55,5 +55,9 @@ cp -R vim/.vim ~/.vim
 cp vim/*.vim ~/
 vim +'PlugInstall --sync' +qa
 
+printf "\nSetup Bash\n"
+sudo echo "/usr/local/bin/bash" >> /etc/shells
+chsh -s /usr/local/bin/bash
+
 # Note from Mark:
 # python was renamed to pynvim
