@@ -5,6 +5,7 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "theseal/ssh-askpass"
 tap "universal-ctags/universal-ctags"
+tap "adoptopenjdk/openjdk"
 
 cask "google-chrome"
 cask "flycut"
@@ -13,6 +14,8 @@ cask "flux"
 cask "docker"
 cask "virtualbox"
 cask "notable"
+cask "adoptopenjdk"
+cask "sublime-text"
 
 brew "python", link: false
 brew "ansible"
