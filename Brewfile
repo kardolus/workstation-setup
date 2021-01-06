@@ -60,6 +60,7 @@ brew "kind"
 brew "dockerize"
 brew "kube-ps1"
 brew "bash"
+brew "bash-completion"
 
 brew "git-duet/tap/git-duet"
 brew "theseal/ssh-askpass/ssh-askpass"
