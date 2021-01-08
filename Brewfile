@@ -16,6 +16,7 @@ cask "virtualbox"
 cask "notable"
 cask "adoptopenjdk"
 cask "sublime-text"
+cask "zoom"
 
 brew "python", link: false
 brew "ansible"
