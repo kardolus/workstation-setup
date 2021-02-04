@@ -62,6 +62,7 @@ brew "dockerize"
 brew "kube-ps1"
 brew "bash"
 brew "bash-completion"
+brew "helm"
 
 brew "git-duet/tap/git-duet"
 brew "theseal/ssh-askpass/ssh-askpass"
