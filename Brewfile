@@ -12,11 +12,14 @@ cask "flycut"
 cask "shiftit"
 cask "flux"
 cask "docker"
-cask "virtualbox"
-cask "typora"
 cask "adoptopenjdk"
 cask "sublime-text"
 cask "zoom"
+cask notion
+cask goland
+cask google-cloud-sdk
+cask intellij-idea
+cask slack
 
 brew "python", link: false
 brew "ansible"
