@@ -20,6 +20,8 @@ cask goland
 cask google-cloud-sdk
 cask intellij-idea
 cask slack
+cask datagrip
+cask ledger-live
 
 brew "python", link: false
 brew "ansible"
