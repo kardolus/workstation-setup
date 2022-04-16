@@ -22,6 +22,7 @@ cask intellij-idea
 cask slack
 cask datagrip
 cask ledger-live
+cask telegram
 
 brew "python", link: false
 brew "ansible"
