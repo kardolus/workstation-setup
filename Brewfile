@@ -70,6 +70,7 @@ brew "bash"
 brew "bash-completion"
 brew "helm"
 brew "libpq"
+brew "terraform"
 
 brew "git-duet/tap/git-duet"
 brew "theseal/ssh-askpass/ssh-askpass"
