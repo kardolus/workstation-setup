@@ -9,7 +9,7 @@ tap "adoptopenjdk/openjdk"
 
 cask "google-chrome"
 cask "flycut"
-cask "shiftit"
+cask "rectangle"
 cask "flux"
 cask "docker"
 cask "adoptopenjdk"
