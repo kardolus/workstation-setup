@@ -15,14 +15,14 @@ cask "docker"
 cask "adoptopenjdk"
 cask "sublime-text"
 cask "zoom"
-cask notion
-cask goland
-cask google-cloud-sdk
-cask intellij-idea
-cask slack
-cask datagrip
-cask ledger-live
-cask telegram
+cask "notion"
+cask "goland"
+cask "google-cloud-sdk"
+cask "intellij-idea"
+cask "slack"
+cask "datagrip"
+cask "ledger-live"
+cask "telegram"
 
 brew "python", link: false
 brew "ansible"
