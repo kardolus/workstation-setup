@@ -23,6 +23,7 @@ cask "slack"
 cask "datagrip"
 cask "ledger-live"
 cask "telegram"
+cask "scroll-reverser"
 
 brew "python", link: false
 brew "ansible"
