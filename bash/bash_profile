@@ -4,7 +4,7 @@ export PATH="/usr/local/bin:$PATH"
 export BASH_IT="$HOME/.bash_it"
 
 # Lock and Load a custom theme file
-export BASH_IT_THEME="guillermo"
+export BASH_IT_THEME="bobby"
 
 # Load Bash It
 source $BASH_IT/bash_it.sh
@@ -15,5 +15,6 @@ source <(kubectl completion bash)
 # Autocomplete kubectl with just 'k'
 complete -F __start_kubectl k
 
-
 source ~/.bashrc
+
+[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
