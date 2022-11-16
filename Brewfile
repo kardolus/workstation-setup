@@ -75,6 +75,7 @@ brew "bash-completion"
 brew "helm"
 brew "libpq"
 brew "terraform"
+brew "virtualenvwrapper"
 
 brew "git-duet/tap/git-duet"
 brew "theseal/ssh-askpass/ssh-askpass"
