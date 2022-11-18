@@ -76,6 +76,7 @@ brew "helm"
 brew "libpq"
 brew "terraform"
 brew "virtualenvwrapper"
+brew "gimme-aws-creds"
 
 brew "git-duet/tap/git-duet"
 brew "theseal/ssh-askpass/ssh-askpass"
