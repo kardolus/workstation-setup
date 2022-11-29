@@ -74,7 +74,7 @@ brew "bash"
 brew "bash-completion"
 brew "helm"
 brew "libpq"
-brew "terraform"
+brew "tfenv"
 brew "virtualenvwrapper"
 brew "gimme-aws-creds"
 
