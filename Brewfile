@@ -24,6 +24,7 @@ cask "datagrip"
 cask "ledger-live"
 cask "telegram"
 cask "scroll-reverser"
+cask "bloomrpc"
 
 brew "python", link: false
 brew "ansible"
