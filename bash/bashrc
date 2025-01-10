@@ -11,3 +11,8 @@ source ~/.aliases
 # Setup Go Path
 export PATH=$PATH:/usr/local/opt/go/libexec/bin:~/go/bin
 export GOPATH=$HOME/go
+
+# Setup NeoVim
+if [ ! -L "$HOME/.config/nvim" ]; then
+    ln -s "$HOME/.vim" "$HOME/.config/nvim"
+fi

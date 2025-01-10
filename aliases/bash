@@ -36,6 +36,7 @@ alias la='ls -AF'
 alias ll='ls -al'
 alias ls='ls -G'
 alias md='mkdir -p'
+alias vim="nvim"
 alias pager=''
 alias piano='pianobar'
 alias pip='pip3'

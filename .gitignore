@@ -1,0 +1,28 @@
+# IDE/Editor Specific
+.idea/
+.vscode/
+*.sublime*
+
+# System Specific
+.DS_Store
+Thumbs.db
+*.swp
+
+# Go Build Artifacts
+bin/
+*.exe
+*.out
+*.test
+**/coverage.html
+
+# Logs, Temp Files, & Runtime Data
+logs/
+*.log
+*.tmp
+*.bak
+
+# GitHub, CI/CD, and Debugging
+*.coverage
+*.prof
+coverage.out
+
