@@ -13,19 +13,13 @@ set -e
 
 if ! command -v brew > /dev/null 2>&1; then
   printf "\nInstalling Brew\n"
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   brew analytics off
 fi
+
 printf "\nUpdating Brew\n"
 brew update
 brew upgrade
-
-printf "\nSetup Ruby\n"
-brew install rbenv
-gem install bundle
-
-printf "\nInstalling Bundle Packages\n"
-bundle install
 
 printf "\nInstalling Brew Packages\n"
 set +e
@@ -53,11 +47,16 @@ wget https://www.dropbox.com/s/hj4567h7h78ncip/vim.zip
 unzip vim.zip
 cp -R vim/.vim ~/.vim
 cp vim/*.vim ~/
+vim +'PlugClean' +qa
 vim +'PlugInstall --sync' +qa
 
 printf "\nSetup Bash\n"
-sudo echo "/usr/local/bin/bash" >> /etc/shells
-chsh -s /usr/local/bin/bash
+sudo echo "/opt/homebrew/bin/bash" >> /etc/shells
+chsh -s /opt/homebrew/bin/bash
+
+printf "\nSetup z\n"
+mkdir -p ~/workspace/z
+wget https://raw.githubusercontent.com/rupa/z/master/z.sh -O ~/workspace/z/z.sh
 
 # Note from Mark:
 # python was renamed to pynvim

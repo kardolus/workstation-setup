@@ -11,8 +11,38 @@ source ~/.aliases
 # Setup Go Path
 export PATH=$PATH:/usr/local/opt/go/libexec/bin:~/go/bin
 export GOPATH=$HOME/go
+export PATH=$PATH:/usr/local/opt/go/libexec/bin:~/go/bin:/opt/homebrew/bin/
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 # Setup NeoVim
 if [ ! -L "$HOME/.config/nvim" ]; then
     ln -s "$HOME/.vim" "$HOME/.config/nvim"
 fi
+
+source "/opt/homebrew/opt/kube-ps1/share/kube-ps1.sh"
+PS1='$(kube_ps1)'$PS1
+
+source ~/workspace/z/z.sh
+
+export BASH_COMPLETION_COMPAT_DIR="/opt/homebrew/etc/bash_completion.d"
+[[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
+
+source <(kubectl completion bash)
+
+kubectl completion bash >/opt/homebrew/etc/bash_completion.d/kubectl
+
+complete -F __start_kubectl k
+
+source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc"
+
+. <(chatgpt --set-completions bash)
+
+export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
+[[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
+
+# Prompt
+export KUBE_PS1_SYMBOL_DEFAULT=☸️
+export KUBE_PS1_SEPARATOR=" |"
+export KUBE_PS1_SYMBOL_USE_IMG=true
+
+# API Keys
