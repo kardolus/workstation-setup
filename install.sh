@@ -22,7 +22,7 @@ brew update
 brew upgrade
 
 printf "\nInstalling Brew Packages\n"
-set +e
+set +e # Some packages may no longer be available
 brew bundle
 set -e
 
