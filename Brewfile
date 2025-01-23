@@ -24,6 +24,7 @@ cask "telegram"
 cask "scroll-reverser"
 cask "notion-calendar"
 cask "1password"
+cask "1password-cli"
 cask "chatgpt"
 cask "mullvadvpn"
 
